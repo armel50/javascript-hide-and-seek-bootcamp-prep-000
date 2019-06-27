@@ -20,7 +20,8 @@ function deepestChild(){
   var nested = document.querySelectorAll("#grand-node");
   var found ;
   for(var i = 0; i<nested.length;i++){
-    found
+    found = nested[i][i][i][i];
+    if(found==="")
   }
   return nested;
 }
