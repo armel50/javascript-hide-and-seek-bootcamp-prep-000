@@ -21,7 +21,7 @@ function deepestChild(){
   var found ;
   for(var i = 0; i<nested.length;i++){
     found = nested[i][i][i][i];
-    if(found==="boo!"){
+    if(found ==="boo!"){
       return found;
     }
   }
